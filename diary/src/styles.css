@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    color: #fff;
+}
+
+div{
+    background-color: #455a64;
+}
+
+textarea{
+    height: 200px;
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Please Enter Your Name</h1>
+  <input type="text" id='name' placeholder="Input your name, please.">
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <p>Hi {{userName}},</p>
+    <p>I will walk you through your day so far.</p>
+    <p>If you’re ready to proceed, click "OK".</p>
+  </div>
+  <div class="modal-footer">
+    <a class="modal-close waves-effect waves-green btn-flat" (click)=goNext()>OK</a>
+  </div>
+</div>
